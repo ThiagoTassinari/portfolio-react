@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'remixicon/fonts/remixicon.css'
+import 'remixicon/fonts/remixicon.css';
 
 ReactDOM.render(
   <React.StrictMode>

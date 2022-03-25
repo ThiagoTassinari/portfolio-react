@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Header from "../header/Header";
 
 const Layout = () => {
   return (
-    <Fragment>
+    <>
       <Header />
-    </Fragment>
+    </>
   );
 };
 
