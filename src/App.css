@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* ============= Google Fonts ================= */
+
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+/* ================ Variables Colors  ================ */
+
+:root {
+  --bg-color: #0E1B31;
+  --primary-color: #7865FF;
+  --card-color: #132347;
+  --modal-bg: #102048;
+  --scroll-bar-color: #C1CEFF;
+  --scroll-bar-thumb-color: #282f4E;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Base style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  background: var(--bg-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  color: #FFFFFF;
+  opacity: 75%;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: unset;
+  font-family: "Lato", sans-serif;
+}
+
+a:hover {
+  color: unset;
 }
