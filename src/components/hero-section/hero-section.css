@@ -1,0 +1,42 @@
+.hero__content {
+    margin-top: 150px;
+}
+
+.hire__btn {
+    background: #FFFFFF;
+    color: var(--bg-color);
+}
+
+.hire__btn a {
+    text-decoration: none;
+}
+
+.hire__btn:hover a {
+    color: var(--bg-color);
+}
+
+.hero__title span {
+    color: var(--primary-color);
+}
+
+.hero__title {
+    font-weight: 600;
+}
+
+.hero__img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    margin-left: auto;
+    margin-top: 150px;
+}
+
+.hero__section {
+    padding-top: 150px;
+}
+
+.hero__content {
+    line-height: 30px;
+    font-weight: 300;
+}
